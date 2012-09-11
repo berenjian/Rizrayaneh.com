@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(Images/bgPic.jpg);
+	background-repeat:no repeat;	
+}
+div.container{
+	min-height:1000px;
+	width:980px;
+	margin:0 auto;
+}
+div.header{
+	width:inherit;
+	min-height:250px;
+}
+div.logo{
+	width:350px;
+	height:120px;
+	background-image:url(Images/logo.png);
+	background-repeat:no-repeat;
+	margin-top:45px;
+}
