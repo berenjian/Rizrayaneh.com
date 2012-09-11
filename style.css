@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+*{
+	transition:all 1.5s cubic-bezier(0,0.7,0.3,1);;
+	-webkit-transition:all 1.5s cubic-bezier(0,0.7,0.3,1);;
+	-moz-transition:all 1.5s cubic-bezier(0,0.7,0.3,1);;
+	-o-transition:all 1.5s cubic-bezier(0,0.7,0.3,1);;
+	-ms-transition:all 1.5s cubic-bezier(0,0.7,0.3,1);;	
+}
 body{
 	background-image:url(Images/bgPic.jpg);
 	background-repeat:no repeat;	
@@ -12,7 +20,8 @@ div.container{
 }
 div.header{
 	width:inherit;
-	min-height:250px;
+	height:200px;
+	margin:0 auto;
 }
 div.logo{
 	width:350px;
@@ -20,4 +29,42 @@ div.logo{
 	background-image:url(Images/logo.png);
 	background-repeat:no-repeat;
 	margin-top:45px;
+}
+div.content{
+	width:inherit;
+	min-height:700px;
+	margin:0 auto;
+
+}
+div.menubar{
+	width:980px;
+	height:130px;
+	
+}
+div.menu{
+	width:850px;
+	height:110px;
+	margin:0 auto;
+}
+div.menu ul{
+	list-style-type:none;	
+}
+div.menu ul li{
+	float:left;
+	margin-left:5px;
+}
+div.menu a{
+	display:block; 
+	padding:30px 30px;
+	text-decoration:none;
+	font-size:25px;
+	direction:rtl;
+	text-align:center;
+	color:#FFF;
+	cursor:pointer;
+	background-color:#1A1A1A;
+}
+div.menu li:hover a{
+	background-color:#F7A200;
+	color:#333;
 }
